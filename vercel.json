@@ -1,9 +1,10 @@
 {
     "version": 2,
-    "framework": null,
-    "outputDirectory": "public",
+    "framework": "laravel",
     "functions": {
-        "api/index.php": { "runtime": "vercel-php@0.7.5" }
+        "api/index.php": {
+            "runtime": "vercel-php@0.7.2"
+        }
     },
     "routes": [
         {
